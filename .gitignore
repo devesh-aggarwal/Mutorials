@@ -12,3 +12,4 @@ CODEOWNERS
 
 # Built files
 public/css/style.css
+.vercel
