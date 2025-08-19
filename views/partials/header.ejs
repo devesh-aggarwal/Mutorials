@@ -101,8 +101,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet">
 
   <%# Custom CSS for site %>
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/css/style.css">
   <style>
+    [x-cloak] {
+      display: none;
+    }
+
     body {
       font-family: 'Inter', Arial, Helvetica, sans-serif;
     }
@@ -622,6 +626,10 @@
       return false;
     }
   </script>
+
+  <script src="js/utils.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
 
 
 </head>
